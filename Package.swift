@@ -1,4 +1,4 @@
-// swift-tools-version: 6.0
+// swift-tools-version: 6.2
 
 import PackageDescription
 import CompilerPluginSupport
@@ -17,7 +17,7 @@ let package = Package(
        .macOS(.v13)
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-syntax.git", exact: "600.0.1"),
+        .package(url: "https://github.com/apple/swift-syntax.git", exact: "602.0.0"),
         .package(url: "https://github.com/SimplyDanny/SwiftLintPlugins.git", exact: "0.61.0")
     ],
     targets: [
