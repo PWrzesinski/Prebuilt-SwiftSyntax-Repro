@@ -26,8 +26,7 @@ let package = Package(
             dependencies: [
                 .product(name: "SwiftSyntaxMacros", package: "swift-syntax"),
                 .product(name: "SwiftCompilerPlugin", package: "swift-syntax")
-            ],
-            swiftSettings: [.strictMemorySafety()]
+            ]
         ),
         .executableTarget(
             name: "App",
