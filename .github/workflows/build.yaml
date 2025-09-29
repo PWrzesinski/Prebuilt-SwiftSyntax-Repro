@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: PWrzesinski/setup-swift@fa32875e69df070c2a188c2f37e8bc941267f8f0
       with:
-        swift-version: "6.2.0"
+        swift-version: "6.0.3"
     - uses: actions/checkout@v4
     - name: Print Swift version
       run: swift --version ; swift package --version
